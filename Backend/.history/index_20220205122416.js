@@ -1,1 +1,0 @@
-const ConnectToMongo = require('./')
