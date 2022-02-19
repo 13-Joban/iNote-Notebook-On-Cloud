@@ -1,7 +1,7 @@
 const ConnectToMongo =  require('./db');
 const express = require('express');
 const app = express()
-const port = 3000;
+const port = 5000;
 ConnectToMongo();
 // we need to use middleware to get body of json
 app.use(express.json());
